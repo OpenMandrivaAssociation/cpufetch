@@ -1,3 +1,5 @@
+%define _empty_manifest_terminate_build 0
+
 Name: cpufetch
 Summary: Simple yet fancy CPU architecture fetching tool
 License: GPL-2.0
