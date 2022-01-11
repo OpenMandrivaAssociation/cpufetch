@@ -24,10 +24,10 @@ It currently supports x86_64 CPUs (both Intel and AMD), ARM, and PowerPC.
 %install
 %make_install
 
-# "make install" installs the LICENSE file as well
-#rm %{buildroot}%{_datadir}/licenses/cpufetch-git/LICENSE
+# From Fedora
+rm %{buildroot}%{_datadir}/licenses/cpufetch-git/LICENSE
 # The man page is not actually gzipped
-#mv %{buildroot}%{_mandir}/man1/%{name}.1{.gz,}
+mv %{buildroot}%{_mandir}/man1/%{name}.1{.gz,}
 
 %files
 %license LICENSE
