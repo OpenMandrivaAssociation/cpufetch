@@ -5,7 +5,7 @@ Summary: Simple yet fancy CPU architecture fetching tool
 License: GPL-2.0
 Group:   Monitoring
 Version: 1.03
-Release: 1
+Release: 2
 URL: https://github.com/Dr-Noob/cpufetch
 Source0: https://github.com/Dr-Noob/cpufetch/archive/v%{version}/%{name}-%{version}.tar.gz
 
